@@ -11,8 +11,10 @@ def encode(string):
     result = base64.b64decode(string).decode('ascii')
     return result
 
-print("Zaszyforwany:", decode("Siema"))
+print("Zaszyforwany:", decode("Hej"))
 
-print("Odszyfrowany:", encode("U2llbWE="))
+print("Odszyfrowany:", encode("SGVq"))
+
+
 
 
